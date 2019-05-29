@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+
+<provider id="{id1}" type="0" visible="true" background="-1">
+	<name>Strava</name>
+	<mode>Strava Biking {suffix}</mode>
+	<countries>World</countries>
+	<url><![CDATA[https://heatmap-external-a.strava.com/tiles-auth/ride/bluered/{{z}}/{{x}}/{{y}}.png?v={{ts}}]]></url>
+	<zoomPart>{{z}}-8</zoomPart>
+	<zoomMin>8</zoomMin>
+	<zoomMax>22</zoomMax>
+	<tileSize>256</tileSize>
+	<tileScale dpi="0" multi="2.0" replace="19" />
+	<attribution><![CDATA[© 2019 Strava]]></attribution>
+	<extraHeader><![CDATA[Cookie#{cookie}]]></extraHeader>
+</provider>
+
+
+<provider id="{id2}" type="0" visible="true" background="-1">
+	<name>Strava</name>
+	<mode>Strava Running {suffix}</mode>
+	<countries>World</countries>
+	<url><![CDATA[https://heatmap-external-a.strava.com/tiles-auth/run/bluered/{{z}}/{{x}}/{{y}}.png?v={{ts}}]]></url>
+	<zoomPart>{{z}}-8</zoomPart>
+	<zoomMin>8</zoomMin>
+	<zoomMax>22</zoomMax>
+	<tileSize>256</tileSize>
+	<tileScale dpi="0" multi="2.0" replace="19" />
+	<attribution><![CDATA[© 2019 Strava]]></attribution>
+	<extraHeader><![CDATA[Cookie#{cookie}]]></extraHeader>
+</provider>
+
+</providers>
