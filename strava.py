@@ -13,7 +13,8 @@ suffix = ' jb'  # add to the name (if anything)
 # for every map: (Name to display, url field, color)
 provider_fields = [
     ("Biking", "ride", "bluered"),
-    ("Running", "run", "bluered")
+    ("Running", "run", "bluered"),
+    ("Winter", "winter", "bluered")
 ]
 
 cookie_names = [
